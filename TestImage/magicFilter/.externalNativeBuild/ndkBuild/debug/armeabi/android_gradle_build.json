@@ -1,0 +1,45 @@
+{
+  "buildFiles": [
+    "/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni/Android.mk",
+    "/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/zjerry/android-ndk-r14b/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni/Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003d/Users/zjerry/Downloads/TestImage/magicFilter/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/zjerry/Downloads/TestImage/magicFilter/build/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "libraries": {
+    "MagicSDK-debug-armeabi": {
+      "buildCommand": "/Users/zjerry/android-ndk-r14b/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni/Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003d/Users/zjerry/Downloads/TestImage/magicFilter/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/zjerry/Downloads/TestImage/magicFilter/build/intermediates/ndkBuild/debug/lib /Users/zjerry/Downloads/TestImage/magicFilter/build/intermediates/ndkBuild/debug/obj/local/armeabi/libMagicSDK.so",
+      "toolchain": "toolchain-armeabi",
+      "abi": "armeabi",
+      "artifactName": "MagicSDK",
+      "files": [
+        {
+          "src": "/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni/MagicSDK.cpp",
+          "flags": "-gcc-toolchain /Users/zjerry/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -fno-integrated-as -g -target armv5te-none-linux-androideabi -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-exceptions -fno-rtti -mthumb -O0 -UNDEBUG -fno-limit-debug-info -I/Users/zjerry/android-ndk-r14b/sources/cxx-stl/system/include -I/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot /Users/zjerry/android-ndk-r14b/platforms/android-15/arch-arm"
+        },
+        {
+          "src": "/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni/bitmap/BitmapOperation.cpp",
+          "flags": "-gcc-toolchain /Users/zjerry/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -fno-integrated-as -g -target armv5te-none-linux-androideabi -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-exceptions -fno-rtti -mthumb -O0 -UNDEBUG -fno-limit-debug-info -I/Users/zjerry/android-ndk-r14b/sources/cxx-stl/system/include -I/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot /Users/zjerry/android-ndk-r14b/platforms/android-15/arch-arm"
+        },
+        {
+          "src": "/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni/bitmap/Conversion.cpp",
+          "flags": "-gcc-toolchain /Users/zjerry/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -fno-integrated-as -g -target armv5te-none-linux-androideabi -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-exceptions -fno-rtti -mthumb -O0 -UNDEBUG -fno-limit-debug-info -I/Users/zjerry/android-ndk-r14b/sources/cxx-stl/system/include -I/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot /Users/zjerry/android-ndk-r14b/platforms/android-15/arch-arm"
+        },
+        {
+          "src": "/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni/skinsmooth/MagicBeauty.cpp",
+          "flags": "-gcc-toolchain /Users/zjerry/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -fno-integrated-as -g -target armv5te-none-linux-androideabi -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-exceptions -fno-rtti -mthumb -O0 -UNDEBUG -fno-limit-debug-info -I/Users/zjerry/android-ndk-r14b/sources/cxx-stl/system/include -I/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot /Users/zjerry/android-ndk-r14b/platforms/android-15/arch-arm"
+        }
+      ],
+      "output": "/Users/zjerry/Downloads/TestImage/magicFilter/build/intermediates/ndkBuild/debug/obj/local/armeabi/libMagicSDK.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi": {
+      "cppCompilerExecutable": "/Users/zjerry/android-ndk-r14b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
