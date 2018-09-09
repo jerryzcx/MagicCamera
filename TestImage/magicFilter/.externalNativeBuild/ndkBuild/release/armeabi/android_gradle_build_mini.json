@@ -1,17 +1,17 @@
 {
   "buildFiles": [
-    "/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni/Android.mk",
-    "/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni/Application.mk"
+    "/Users/zjerry/Documents/MagicCamera/TestImage/magicFilter/src/main/jni/Android.mk",
+    "/Users/zjerry/Documents/MagicCamera/TestImage/magicFilter/src/main/jni/Application.mk"
   ],
   "cleanCommands": [
-    "/Users/zjerry/android-ndk-r14b/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni/Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003d/Users/zjerry/Downloads/TestImage/magicFilter/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/zjerry/Downloads/TestImage/magicFilter/build/intermediates/ndkBuild/release/lib clean"
+    "/Users/zjerry/android-ndk-r14b/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zjerry/Documents/MagicCamera/TestImage/magicFilter/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zjerry/Documents/MagicCamera/TestImage/magicFilter/src/main/jni/Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003d/Users/zjerry/Documents/MagicCamera/TestImage/magicFilter/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/zjerry/Documents/MagicCamera/TestImage/magicFilter/build/intermediates/ndkBuild/release/lib clean"
   ],
   "libraries": {
     "MagicSDK-release-armeabi": {
       "artifactName": "MagicSDK",
-      "buildCommand": "/Users/zjerry/android-ndk-r14b/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zjerry/Downloads/TestImage/magicFilter/src/main/jni/Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003d/Users/zjerry/Downloads/TestImage/magicFilter/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/zjerry/Downloads/TestImage/magicFilter/build/intermediates/ndkBuild/release/lib /Users/zjerry/Downloads/TestImage/magicFilter/build/intermediates/ndkBuild/release/obj/local/armeabi/libMagicSDK.so",
+      "buildCommand": "/Users/zjerry/android-ndk-r14b/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/zjerry/Documents/MagicCamera/TestImage/magicFilter/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/zjerry/Documents/MagicCamera/TestImage/magicFilter/src/main/jni/Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003d/Users/zjerry/Documents/MagicCamera/TestImage/magicFilter/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/zjerry/Documents/MagicCamera/TestImage/magicFilter/build/intermediates/ndkBuild/release/lib /Users/zjerry/Documents/MagicCamera/TestImage/magicFilter/build/intermediates/ndkBuild/release/obj/local/armeabi/libMagicSDK.so",
       "abi": "armeabi",
-      "output": "/Users/zjerry/Downloads/TestImage/magicFilter/build/intermediates/ndkBuild/release/obj/local/armeabi/libMagicSDK.so"
+      "output": "/Users/zjerry/Documents/MagicCamera/TestImage/magicFilter/build/intermediates/ndkBuild/release/obj/local/armeabi/libMagicSDK.so"
     }
   }
 }

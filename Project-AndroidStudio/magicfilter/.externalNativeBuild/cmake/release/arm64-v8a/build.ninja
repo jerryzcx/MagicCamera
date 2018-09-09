@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zjerry/android-sdk-macosx/cmake/3.6.4111459/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zjerry/android-sdk-macosx/cmake/3.6.4111459/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -43,7 +43,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zjerry/android-sdk-macosx/cmake/3.6.4111459/bin/cmake -H/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter -B/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/release/arm64-v8a
+  COMMAND = cd /Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zjerry/android-sdk-macosx/cmake/3.6.4111459/bin/cmake -H/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter -B/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/release/arm64-v8a
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -56,7 +56,7 @@ build CMakeFiles/MagicJni.dir/src/main/cpp/bitmap/Conversion.cpp.o: CXX_COMPILER
   DEP_FILE = CMakeFiles/MagicJni.dir/src/main/cpp/bitmap/Conversion.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/cpp/bitmap/Conversion.cpp
+  IN_ABS = /Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/src/main/cpp/bitmap/Conversion.cpp
   OBJECT_DIR = CMakeFiles/MagicJni.dir
   OBJECT_FILE_DIR = CMakeFiles/MagicJni.dir/src/main/cpp/bitmap
 build CMakeFiles/MagicJni.dir/src/main/cpp/bitmap/BitmapOperation.cpp.o: CXX_COMPILER__MagicJni ../../../../src/main/cpp/bitmap/BitmapOperation.cpp
@@ -64,7 +64,7 @@ build CMakeFiles/MagicJni.dir/src/main/cpp/bitmap/BitmapOperation.cpp.o: CXX_COM
   DEP_FILE = CMakeFiles/MagicJni.dir/src/main/cpp/bitmap/BitmapOperation.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/cpp/bitmap/BitmapOperation.cpp
+  IN_ABS = /Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/src/main/cpp/bitmap/BitmapOperation.cpp
   OBJECT_DIR = CMakeFiles/MagicJni.dir
   OBJECT_FILE_DIR = CMakeFiles/MagicJni.dir/src/main/cpp/bitmap
 build CMakeFiles/MagicJni.dir/src/main/cpp/beautify/MagicBeautify.cpp.o: CXX_COMPILER__MagicJni ../../../../src/main/cpp/beautify/MagicBeautify.cpp
@@ -72,7 +72,7 @@ build CMakeFiles/MagicJni.dir/src/main/cpp/beautify/MagicBeautify.cpp.o: CXX_COM
   DEP_FILE = CMakeFiles/MagicJni.dir/src/main/cpp/beautify/MagicBeautify.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/cpp/beautify/MagicBeautify.cpp
+  IN_ABS = /Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/src/main/cpp/beautify/MagicBeautify.cpp
   OBJECT_DIR = CMakeFiles/MagicJni.dir
   OBJECT_FILE_DIR = CMakeFiles/MagicJni.dir/src/main/cpp/beautify
 build CMakeFiles/MagicJni.dir/src/main/cpp/MagicJni.cpp.o: CXX_COMPILER__MagicJni ../../../../src/main/cpp/MagicJni.cpp
@@ -80,7 +80,7 @@ build CMakeFiles/MagicJni.dir/src/main/cpp/MagicJni.cpp.o: CXX_COMPILER__MagicJn
   DEP_FILE = CMakeFiles/MagicJni.dir/src/main/cpp/MagicJni.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/cpp/MagicJni.cpp
+  IN_ABS = /Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/src/main/cpp/MagicJni.cpp
   OBJECT_DIR = CMakeFiles/MagicJni.dir
   OBJECT_FILE_DIR = CMakeFiles/MagicJni.dir/src/main/cpp
 

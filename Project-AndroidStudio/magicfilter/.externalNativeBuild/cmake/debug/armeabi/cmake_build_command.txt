@@ -1,10 +1,10 @@
 Executable : /Users/zjerry/android-sdk-macosx/cmake/3.6.4111459/bin/cmake
 arguments : 
--H/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter
--B/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/armeabi
+-H/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter
+-B/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/armeabi
 -DANDROID_ABI=armeabi
 -DANDROID_PLATFORM=android-14
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/cmake/debug/obj/armeabi
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/cmake/debug/obj/armeabi
 -DCMAKE_BUILD_TYPE=Debug
 -DANDROID_NDK=/Users/zjerry/android-ndk-r14b
 -DCMAKE_CXX_FLAGS=

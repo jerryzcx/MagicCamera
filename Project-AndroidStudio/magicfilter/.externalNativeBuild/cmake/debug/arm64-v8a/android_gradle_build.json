@@ -2,11 +2,11 @@
 {
 	"buildFiles" : 
 	[
-		"/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/CMakeLists.txt"
+		"/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/CMakeLists.txt"
 	],
 	"cleanCommands" : 
 	[
-		"/Users/zjerry/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+		"/Users/zjerry/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -15,36 +15,36 @@
 		{
 			"abi" : "arm64-v8a",
 			"artifactName" : "MagicJni",
-			"buildCommand" : "/Users/zjerry/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/arm64-v8a --target MagicJni",
+			"buildCommand" : "/Users/zjerry/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/arm64-v8a --target MagicJni",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/zjerry/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zjerry/android-ndk-r14b/platforms/android-21/arch-arm64  -DMagicJni_EXPORTS -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/cpp/bitmap/Conversion.cpp",
-					"workingDirectory" : "/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/src/main/cpp/bitmap/Conversion.cpp",
+					"workingDirectory" : "/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/zjerry/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zjerry/android-ndk-r14b/platforms/android-21/arch-arm64  -DMagicJni_EXPORTS -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/cpp/bitmap/BitmapOperation.cpp",
-					"workingDirectory" : "/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/src/main/cpp/bitmap/BitmapOperation.cpp",
+					"workingDirectory" : "/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/zjerry/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zjerry/android-ndk-r14b/platforms/android-21/arch-arm64  -DMagicJni_EXPORTS -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/cpp/beautify/MagicBeautify.cpp",
-					"workingDirectory" : "/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/src/main/cpp/beautify/MagicBeautify.cpp",
+					"workingDirectory" : "/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
 					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/zjerry/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zjerry/android-ndk-r14b/platforms/android-21/arch-arm64  -DMagicJni_EXPORTS -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/zjerry/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/cpp/MagicJni.cpp",
-					"workingDirectory" : "/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"src" : "/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/src/main/cpp/MagicJni.cpp",
+					"workingDirectory" : "/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/arm64-v8a"
 				}
 			],
-			"output" : "/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/cmake/debug/obj/arm64-v8a/libMagicJni.so",
+			"output" : "/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/cmake/debug/obj/arm64-v8a/libMagicJni.so",
 			"toolchain" : "15278448377514667542"
 		}
 	},

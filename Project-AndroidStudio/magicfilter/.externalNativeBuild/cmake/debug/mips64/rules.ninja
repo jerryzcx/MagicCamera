@@ -42,7 +42,7 @@ rule CXX_SHARED_LIBRARY_LINKER__MagicJni
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/zjerry/android-sdk-macosx/cmake/3.6.4111459/bin/cmake -H/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter -B/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/mips64
+  command = /Users/zjerry/android-sdk-macosx/cmake/3.6.4111459/bin/cmake -H/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter -B/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/mips64
   description = Re-running CMake...
   generator = 1
 

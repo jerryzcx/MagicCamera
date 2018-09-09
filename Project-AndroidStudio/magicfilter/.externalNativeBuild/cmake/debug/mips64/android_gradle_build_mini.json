@@ -1,16 +1,16 @@
 {
   "buildFiles": [
-    "/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/CMakeLists.txt"
+    "/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/Users/zjerry/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/mips64 --target clean"
+    "/Users/zjerry/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/mips64 --target clean"
   ],
   "libraries": {
     "MagicJni-Debug-mips64": {
       "artifactName": "MagicJni",
-      "buildCommand": "/Users/zjerry/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/mips64 --target MagicJni",
+      "buildCommand": "/Users/zjerry/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/mips64 --target MagicJni",
       "abi": "mips64",
-      "output": "/Users/zjerry/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/cmake/debug/obj/mips64/libMagicJni.so"
+      "output": "/Users/zjerry/Documents/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/cmake/debug/obj/mips64/libMagicJni.so"
     }
   }
 }
